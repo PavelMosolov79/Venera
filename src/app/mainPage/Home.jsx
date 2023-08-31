@@ -23,18 +23,18 @@ const MainPage = () => {
         <scroll-page id='mainSection'>
             <MainSection func={scrollToElement}/>
         </scroll-page>
-        <scroll-page id='BlockSection'>
-            <BlocksSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='aboutSection'>
-            <AboutSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='SendSection'>
-            <SendSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='FoterSection'>
-            <FoterSection func={scrollToElement}/>
-        </scroll-page>
+        {/* <scroll-page id='BlockSection'> */}
+            {/* <BlocksSection func={scrollToElement}/> */}
+        {/* </scroll-page> */}
+        {/* <scroll-page id='aboutSection'> */}
+            {/* <AboutSection func={scrollToElement}/> */}
+        {/* </scroll-page> */}
+        {/* <scroll-page id='SendSection'> */}
+            {/* <SendSection func={scrollToElement}/> */}
+        {/* </scroll-page> */}
+        {/* <scroll-page id='FoterSection'> */}
+            {/* <FoterSection func={scrollToElement}/> */}
+        {/* </scroll-page> */}
       </scroll-container>
     </div>
   )
