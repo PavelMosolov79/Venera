@@ -183,8 +183,16 @@
     }
 
     .main__container-network img{
+        transition: 0.4s;
         width: calc(var(--index) * 2.5);
         height: calc(var(--index) * 2.5);
+        padding-left: 10px;
+    }
+
+    .main__container-network img:hover{
+        transition: 0.4s;
+        width: calc(var(--index) * 2.7);
+        height: calc(var(--index) * 2.7);
         padding-left: 10px;
     }
 }
