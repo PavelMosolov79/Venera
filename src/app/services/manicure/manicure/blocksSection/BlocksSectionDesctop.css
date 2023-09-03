@@ -1,0 +1,290 @@
+
+
+@media (min-width: 761px) {
+    /* HEADER */
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes OpacityArrow {
+        0% {
+            opacity: 0.3;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0.3;
+        }
+    }
+
+    @keyframes RotationOne {
+        from {
+            /* transition: 0.8s; */
+            transform: rotate(0deg);
+        }
+        to {
+            /* transition: 0.8s; */
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwo {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .blocks{
+        width: 100%;
+        height: 140vh;
+        padding: calc(var(--index) * 1.5);
+        background-color: white;
+    }
+
+    .blocks__section{
+        display: flex;
+        /* justify-content: center; */
+        align-items: start;
+        height: 130vh;
+        width: 100%;
+    }
+
+    .blocks__section-one{
+        /* display: flex; */
+    }
+
+    .blocks__section-two{
+
+    }
+
+    .blocks__section-one__hairdresser{
+        width: calc(var(--index) * 40);
+        height: calc(var(--index) * 13);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/hairdresser.jpg");
+    }
+
+    .blocks__section-one__hairdresser-background{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 40);
+        height: calc(var(--index) * 13);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-one__hairdresser-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-one__hairdresser a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        font-weight: 600;
+    }
+
+    .blocks__section-one__layout{
+        display: flex;
+    }
+
+    .blocks__section-one__layout-one__manicure{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/manicure.jpg");
+    }
+
+    .blocks__section-one__layout-one__manicure-background{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-one__layout-one__manicure-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-one__layout-one__manicure a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+
+    .blocks__section-one__layout-one__depilation{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/depilation.jpg");
+    }
+
+    .blocks__section-one__layout-one__depilation-background{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-one__layout-one__depilation-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-one__layout-one__depilation a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+
+    .blocks__section-one__layout-two{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 27);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/eye.jpg");
+    }
+
+    .blocks__section-one__layout-two-background{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 27);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-one__layout-two-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-one__layout-two a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+
+    .blocks__section-two__sail{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 20);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/sail.jpg");
+    }
+
+    .blocks__section-two__sail-background{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 20);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-two__sail-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-two__sail a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+    
+    .blocks__section-two__vacancy{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 21);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/vacancy.jpg");
+    }
+
+    .blocks__section-two__vacancy-background{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 21);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-two__vacancy-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-two__vacancy a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+}

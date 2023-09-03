@@ -1,7 +1,6 @@
 
 
 @media (min-width: 761px) {
-    /* HEADER */
     :root {
         --index: calc(1vw + 1vh);
     }
@@ -42,21 +41,16 @@
 
     .blocks{
         width: 100%;
-        height: 150vh;
+        height: 140vh;
         padding: calc(var(--index) * 1.5);
         background-color: white;
     }
 
     .blocks__section{
         display: flex;
-        /* justify-content: center; */
         align-items: start;
-        height: 140vh;
+        height: 130vh;
         width: 100%;
-    }
-
-    .blocks__section-one{
-        /* display: flex; */
     }
 
     .blocks__section-one__hairdresser{
@@ -203,6 +197,80 @@
     }
 
     .blocks__section-one__layout-two a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+
+    .blocks__section-two__sail{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 20);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/sail.jpg");
+    }
+
+    .blocks__section-two__sail-background{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 20);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-two__sail-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-two__sail a{
+        font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 2);
+        color: white;
+        /* font-family: 'Montserrat-rus'; */
+        font-weight: 600;
+    }
+    
+    .blocks__section-two__vacancy{
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 21);
+        margin: calc(var(--index) * 1);
+
+        border-radius: calc(var(--index) * 2);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-image: url("/vacancy.jpg");
+    }
+
+    .blocks__section-two__vacancy-background{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 21);
+        border-radius: calc(var(--index) * 2);
+        transition: 1s;
+    }
+
+    .blocks__section-two__vacancy-background:hover{
+        transition: 1s;
+        background: #0000009a;
+        margin-left: calc(var(--index) * 1);
+        cursor: pointer;
+    }
+
+    .blocks__section-two__vacancy a{
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;

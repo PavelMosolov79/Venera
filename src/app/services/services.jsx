@@ -1,10 +1,7 @@
 "use client";
-import MainSection from "./MainPage/mainSection/MainSection";
-import FoterSection from "./MainPage/foterSection/FoterSection";
-import ServicesOneSection from "./MainPage/ServicesOneSection/ServicesOneSection";
-import ServicesTwoSection from "./MainPage/ServicesTwoSection/ServicesTwoSection";
-import ServicesThreeSection from "./MainPage/ServicesThreeSection/ServicesThreeSection";
-
+import MainSection from "./services/mainSection/MainSection";
+import BlocksSection from "./services/blocksSection/BlocksSection";
+import FoterSection from "./services/foterSection/FoterSection";
 import { useRef } from "react";
 
 const ServicesPage = () => {
@@ -22,19 +19,13 @@ const ServicesPage = () => {
     <div className="fullpage__container">
       <scroll-container ref={fullpage}>
         <scroll-page id='mainSection'>
-            <MainSection func={scrollToElement}/>
+          <MainSection func={scrollToElement}/>
         </scroll-page>
-        <scroll-page id='ServicesOneSection'>
-            <ServicesOneSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='ServicesTwoSection'>
-            <ServicesTwoSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='ServicesThreeSection'>
-            <ServicesThreeSection func={scrollToElement}/>
+        <scroll-page id='BlocksSection'>
+          <BlocksSection func={scrollToElement}/>
         </scroll-page>
         <scroll-page id='FoterSection'>
-            <FoterSection func={scrollToElement}/>
+          <FoterSection func={scrollToElement}/>
         </scroll-page>
       </scroll-container>
     </div>

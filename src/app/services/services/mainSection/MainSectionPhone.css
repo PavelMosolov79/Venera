@@ -1,0 +1,172 @@
+
+
+@media (max-width: 761px) {
+    @font-face {
+        font-family: 'KronaOne'; 
+        src: url(/KronaOne-Regular.ttf); 
+    }
+
+    @font-face {
+        font-family: 'Montserrat-rus'; 
+        src: url(/Montserrat-Alternates.ttf); 
+    }
+
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes SizeOne {
+        0% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+        50%{
+            margin: calc(var(--index) * 3.3);
+            width: calc(var(--index) * 9);
+            height: calc(var(--index) * 9);
+        }
+        100% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+    }
+
+    @keyframes RotationOne {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwo {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .main{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .main__container{
+        background-position: center center;
+        background-size: 98% 96vh;
+        background-repeat: no-repeat;
+        background-image: url("/background-main-phone.jpg");
+        
+        width: 96%;
+        height: 100vh;
+    }
+
+    .main__container-header__layout{
+        padding-top: calc(var(--index) * 1.5);
+        display: flex;
+        justify-content: left;
+    }
+
+    .main__container-header__layout-logo{
+        width: calc(var(--index) * 12);
+        height: calc(var(--index) * 3);
+        padding-left: calc(var(--index) * 2.5);
+    }
+
+    .main__container-header__layout img{
+        width: calc(var(--index) * 12);
+        height: calc(var(--index) * 3);
+    }
+
+
+
+    .main__container-header__layout-dropdown{
+        position: relative;
+        display: inline-block;
+        padding: calc(var(--index) * 0.6);
+    }
+
+    .main__header-layout__menu-dropdown{
+        display: flex;
+        margin-left: 100px;
+        min-width: 80px;
+    }
+
+    .main__header-layout__menu-dropdown__text{
+        transition: 0.8s;
+        display: none;
+        position: absolute;
+        padding: 5px;
+        margin-top: 10px;
+        min-width: 160px;
+        background-color: rgb(52, 51, 51);
+        border-radius: 20px;
+        z-index: 10;
+    }
+
+    .main__header-layout__menu-dropdown__text a{
+        color: white;
+        padding: 5px 16px;
+        margin: 5px;
+
+        text-align: right;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .main__header-layout__menu:hover .main__header-layout__menu-dropdown__text{
+        transition: 0.8s;
+        display: block;
+    }
+
+
+
+    .main__container-header__layout nav{
+        display: none;
+    }
+
+    .main__container-header__layout-phone{
+        display: none;
+    }
+
+    .main__container-network{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(var(--index) * 15);
+        height: calc(var(--index) * 2.6);
+        position: relative;
+        left: calc(var(--index) * 1);
+        top: calc(var(--index) * 23.5);
+    }
+
+    .main__container-network__a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: calc(var(--index) * 1);
+        
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+        color: #000000;
+        font-size: calc(var(--index) * 0.8);
+    }
+
+    .main__container-network img{
+        width: calc(var(--index) * 2.5);
+        height: calc(var(--index) * 2.5);
+        padding-left: 10px;
+    }
+}

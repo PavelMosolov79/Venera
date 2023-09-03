@@ -8,31 +8,40 @@ const BlocksSection = ({ func }) => {
         <div className="blocks__section-one">
           <div className="blocks__section-one__hairdresser">
             <div className="blocks__section-one__hairdresser-background">
-              <a>УСЛУГИ<br/>ПАРИКМАХЕРА</a>
+              <a href="/services">УСЛУГИ<br/>ПАРИКМАХЕРА</a>
             </div>
           </div>
           <div className="blocks__section-one__layout">
             <div className="blocks__section-one__layout-one">
               <div className="blocks__section-one__layout-one__manicure">
                 <div className="blocks__section-one__layout-one__manicure-background">
-                  <a>МАНИКЮР И<br/>ПЕДИКЮР</a>
+                  <a href="/services">МАНИКЮР И<br/>ПЕДИКЮР</a>
                 </div>
               </div>
               <div className="blocks__section-one__layout-one__depilation">
                 <div className="blocks__section-one__layout-one__depilation-background">
-                  <a>ДЕПИЛЯЦИЯ</a>
+                  <a href="/services">ДЕПИЛЯЦИЯ</a>
                 </div>
               </div>
             </div >
             <div className="blocks__section-one__layout-two">
               <div className="blocks__section-one__layout-two-background">
-                <a>БРОВИ И<br/>РЕСНИЦЫ</a>
+                <a href="/services">БРОВИ И<br/>РЕСНИЦЫ</a>
               </div>
             </div>
           </div>
         </div>
         <div className="blocks__section-two">
-          
+          <div className="blocks__section-two__sail">
+            <div className="blocks__section-two__sail-background">
+              <a href="/services">АКЦИИ</a>
+            </div>
+          </div>
+          <div className="blocks__section-two__vacancy">
+            <div className="blocks__section-two__vacancy-background">
+              <a href="/services">ВАКАНСИИ</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
