@@ -21,7 +21,7 @@ const MainSection = ({ func }) => {
             <nav>
               <ul>
                 <li>
-                  <a href="/services">Услуги</a>
+                  <a href="/services/hairdresser">Услуги</a>
                 </li>
                 <li>
                   <a href="/news">Новости и акции</a>
@@ -39,8 +39,7 @@ const MainSection = ({ func }) => {
                 <img src="./menu.svg" />
               </button>
               <div class="main__container-header__layout-dropdown-content">
-                <a href="/services">Услуги</a>
-                <a href="/contacts">Услуги парикмахера</a>
+                <a href="/services/hairdresser">Услуги парикмахера</a>
                 <a href="/contacts">Маникюр и педикюр</a>
                 <a href="/contacts">Депиляция</a>
                 <a href="/contacts">Брови и ресницы</a>

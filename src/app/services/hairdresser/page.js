@@ -1,9 +1,9 @@
-import AboutPage from "./about"
+import HairdresserPage from "./hairdresser"
 
 export default function Home() {
   return (
     <main className="">
-      <AboutPage/>
+      <HairdresserPage/>
     </main>
   )
 }

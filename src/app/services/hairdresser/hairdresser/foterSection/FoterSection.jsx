@@ -39,7 +39,7 @@ const FoterSection = ({ func }) => {
         </div>
         <div className="foter__block-logo">
           <div>
-            <img src="./logo-black.svg" alt="Venera"/>
+            <img src=".././logo-black.svg" alt="Venera"/>
             <a>©️ Venera</a>
           </div>
         </div>

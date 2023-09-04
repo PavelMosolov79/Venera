@@ -8,7 +8,7 @@ const BlocksSection = ({ func }) => {
         <div className="blocks__section-one">
           <div className="blocks__section-one__hairdresser">
             <div className="blocks__section-one__hairdresser-background">
-              <a href="/services">УСЛУГИ<br/>ПАРИКМАХЕРА</a>
+              <a href="/services/hairdresser">УСЛУГИ<br/>ПАРИКМАХЕРА</a>
             </div>
           </div>
           <div className="blocks__section-one__layout">
