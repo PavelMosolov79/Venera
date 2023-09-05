@@ -1,9 +1,9 @@
-import AboutPage from "./about"
+import ManicurePage from "./manicure"
 
 export default function Home() {
   return (
-    <main className="">
-      <AboutPage/>
+    <main className="manicure__page">
+      <ManicurePage/>
     </main>
   )
 }

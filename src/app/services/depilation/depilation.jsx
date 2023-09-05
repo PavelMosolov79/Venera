@@ -1,13 +1,10 @@
 "use client";
-// import BlocksSection from "./MainPage/blocksSection/BlocksSection";
-// import AboutSection from "./MainPage/aboutSection/AboutSection";
-import MainSection from "./MainPage/mainSection/MainSection";
-// import SendSection from "./MainPage/sendSection/SendSection";
-import FoterSection from "./MainPage/foterSection/FoterSection";
-import DesignSection from "./MainPage/designSection/DesignSection";
+import MainSection from "./depilation/mainSection/MainSection";
+import BlocksSection from "./depilation/blocksSection/BlocksSection";
+import FoterSection from "./depilation/foterSection/FoterSection";
 import { useRef } from "react";
 
-const AboutPage = () => {
+const DepilationPage = () => {
   const fullpage = useRef(null);
 
   const scrollToElement = (id) => {
@@ -24,8 +21,8 @@ const AboutPage = () => {
         <scroll-page id='mainSection'>
           <MainSection func={scrollToElement}/>
         </scroll-page>
-        <scroll-page id='DesignSection'>
-          <DesignSection func={scrollToElement}/>
+        <scroll-page id='BlocksSection'>
+          <BlocksSection func={scrollToElement}/>
         </scroll-page>
         <scroll-page id='FoterSection'>
           <FoterSection func={scrollToElement}/>
@@ -35,4 +32,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage;
+export default DepilationPage;

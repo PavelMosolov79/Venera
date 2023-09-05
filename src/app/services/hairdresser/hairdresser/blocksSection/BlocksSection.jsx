@@ -681,13 +681,13 @@ const BlocksSection = ({ func }) => {
                   <a className="blocks__section-two__sail-background-a" href="/services/hairdresser">Услуги парикмахера</a>
                 </li>
                 <li>
-                  <a href="/contacts">Маникюр и педикюр</a>
+                  <a href="/services/manicure">Маникюр и педикюр</a>
                 </li>
                 <li>
-                  <a href="/contacts">Депиляция</a>
+                  <a href="/services/depilation">Депиляция</a>
                 </li>
                 <li>
-                  <a href="/contacts">Брови и ресницы</a>
+                  <a href="/services/eyebrows">Брови и ресницы</a>
                 </li>
               </ul>
             </div>

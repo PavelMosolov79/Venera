@@ -2,7 +2,7 @@ import HairdresserPage from "./hairdresser"
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="hairdresser__page">
       <HairdresserPage/>
     </main>
   )

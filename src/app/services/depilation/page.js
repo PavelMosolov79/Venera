@@ -1,9 +1,9 @@
-import AboutPage from "./about"
+import DepilationPage from "./depilation"
 
 export default function Home() {
   return (
-    <main className="">
-      <AboutPage/>
+    <main className="depilation__page">
+      <DepilationPage/>
     </main>
   )
 }

@@ -54,11 +54,20 @@ const MainSection = ({ func }) => {
           </div>
         </header>
         <div className="main__container-network">
-          <div className="main__container-network__text">
-            <a className="main__container-network__a">Наши соц. сети:</a>
+          <div className="main__container-network__h1">
+            <h1>УСЛУГИ</h1>
+            <p>ПАРИКМАХЕРА</p>
           </div>
-          <a href="https://vk.com"><img src=".././vk.svg"/></a>
-          {/* <a href="https://vk.com"><img src=".././instagram.svg"/></a> */}
+          <div className="main__container-network__vk">
+            <div className="main__container-network__text">
+              <a className="main__container-network__a">Наши соц. сети:</a>
+            </div>
+            {/* <a href="https://vk.com"><img src="./vk.svg"/></a> */}
+            <div className="main__container-network__logo">
+              <a href="https://vk.com"><img src=".././vk.svg"/></a>
+              {/* <a href="https://vk.com"><img src="./instagram.svg"/></a> */}
+            </div>
+          </div>
         </div>
       </div>
     </div>
