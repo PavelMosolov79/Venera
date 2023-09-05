@@ -9,28 +9,25 @@ const FoterSection = ({ func }) => {
         <div className="foter__block-menu">
           <ul>
             <li>
-              <a>Услуги</a>
+              <a href="/services/hairdresser">Услуги парикмахера</a>
             </li>
             <li>
-              <a>Услуги парикмахера</a>
+              <a href="/services/manicure">Маникюр и педикюр</a>
             </li>
             <li>
-              <a>Маникюр и педикюр</a>
+              <a href="/services/depilation">Депиляция</a>
             </li>
             <li>
-              <a>Депиляция</a>
+              <a href="/services/eyebrows">Брови и ресницы</a>
             </li>
             <li>
-              <a>Брови и ресницы</a>
+              <a href="/news">Новости и акции</a>
             </li>
             <li>
-              <a>Новости и акции</a>
+              <a href="/vacancy">Вакансии</a>
             </li>
             <li>
-              <a>Вакансии</a>
-            </li>
-            <li>
-              <a>Контакты</a>
+              <a href="/contacts">Контакты</a>
             </li>
           </ul>
         </div>

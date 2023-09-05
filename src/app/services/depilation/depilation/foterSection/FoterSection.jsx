@@ -9,37 +9,34 @@ const FoterSection = ({ func }) => {
         <div className="foter__block-menu">
           <ul>
             <li>
-              <a>Услуги</a>
+              <a href="/services/hairdresser">Услуги парикмахера</a>
             </li>
             <li>
-              <a>Услуги парикмахера</a>
+              <a href="/services/manicure">Маникюр и педикюр</a>
             </li>
             <li>
-              <a>Маникюр и педикюр</a>
+              <a href="/services/depilation">Депиляция</a>
             </li>
             <li>
-              <a>Депиляция</a>
+              <a href="/services/eyebrows">Брови и ресницы</a>
             </li>
             <li>
-              <a>Брови и ресницы</a>
+              <a href="/news">Новости и акции</a>
             </li>
             <li>
-              <a>Новости и акции</a>
+              <a href="/vacancy">Вакансии</a>
             </li>
             <li>
-              <a>Вакансии</a>
-            </li>
-            <li>
-              <a>Контакты</a>
+              <a href="/contacts">Контакты</a>
             </li>
           </ul>
         </div>
         <div className="foter__block-street">
-          <a>ул. Петухова 133/2<br/>ПН - СБ: 09:00 - 20:00<br/>+ 7 (999) 999-99-99</a>
+          <a>ул. Зорге 133/2<br/>ПН - СБ: 09:00 - 20:00<br/>+ 7 (383) 263-70-12</a>
         </div>
         <div className="foter__block-logo">
           <div>
-            <img src="./logo-black.svg" alt="Venera"/>
+            <img src=".././logo-black.svg" alt="Venera"/>
             <a>©️ Venera</a>
           </div>
         </div>

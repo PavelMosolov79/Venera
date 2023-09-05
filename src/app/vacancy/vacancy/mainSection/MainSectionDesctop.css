@@ -54,21 +54,21 @@
     }
 
     .main{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: center;
         align-items: start;
         width: 100%;
-        height: 100vh;
+        height: calc(var(--index) * 32);
     }
 
     .main__container{
         background-position: center center;
-        background-size: 98% calc(var(--index) * 30);
+        background-size: 100% calc(var(--index) * 32);
         background-repeat: no-repeat;
-        background-image: url("/background-main.jpg");
-        
-        width: 98%;
+        background-image: url("/background-vacancy.jpg");
+        margin: 20px;
+        width: 100%;
         height: calc(var(--index) * 32);
     }
 
@@ -80,7 +80,7 @@
 
     .main__container-header__layout-page{
         border: solid 3px black;
-        border-radius: 50px;
+        border-radius: calc(var(--index) * 2.5);
     }
 
     .main__container-header__layout-logo{
@@ -97,8 +97,8 @@
     .main__container-header__layout nav{
         display: flex;
         align-items: center; 
-        width: calc(var(--index) * 27.9);
-        height: calc(var(--index) * 2.6);
+        width: calc(var(--index) * 26);
+        height: calc(var(--index) * 2.5);
         margin-left: calc(var(--index) * 2.5);
         background-color: white;
         border-radius: calc(var(--index) * 2.5);
@@ -110,7 +110,7 @@
 
     .main__container-header__layout nav ul li{
         display: inline-block;
-        width: calc(var(--index) * 7);
+        width: calc(var(--index) * 6.5);
     }
 
     .main__container-header__layout li a{
@@ -141,6 +141,8 @@
     }
 
     .main__container-header__layout-phone{
+        position: absolute;
+        right: calc(var(--index) * 3.5);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -169,32 +171,60 @@
     }
 
     .main__container-network{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: calc(var(--index) * 15);
-        height: calc(var(--index) * 2.6);
+        width: 100%;
+        height: calc(var(--index) * 27);
         position: relative;
-        left: calc(var(--index) * 0.1);
-        top: calc(var(--index) * 23.5);
+        padding: calc(var(--index) * 0.5);
     }
 
-    .main__container-network__a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+    .main__container-network__h1{
+        width: 100%;
+        height: calc(var(--index) * 30.5);
+        padding-top: calc(var(--index) * 13);
+        padding-left: calc(var(--index) * 2);
+    }
+
+    .main__container-network h1{
+        font-size: calc(var(--index) * 5);
+        font-weight: 800;
         font-family: 'Montserrat-rus';
-        font-weight: 600;
-        color: #000000;
-        font-size: calc(var(--index) * 0.8);
+        color: white;
     }
 
-    .main__container-network img{
-        transition: 0.4s;
-        width: calc(var(--index) * 2.5);
-        height: calc(var(--index) * 2.5);
-        padding-left: 10px;
+    .main__container-network p{
+        font-size: calc(var(--index) * 5);
+        font-weight: 800;
+        font-family: 'Montserrat-rus';
+        color: white;
+        padding-left: calc(var(--index) * 15);
+    }
+
+    .main__container-network__vk{
+        position: absolute;
+        top: calc(var(--index) * 23.5);
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: calc(var(--index) * 13.5);
+        height: calc(var(--index) * 4);
+    }
+
+    .main__container-network__text{
+        display: block;
+    }
+
+    .main__container-network__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: calc(var(--index) * 4);
+        height: calc(var(--index) * 4);
+        border-radius: calc(var(--index) * 1);
+    }
+
+    .main__container-network__vk img{
+        width: calc(var(--index) * 2);
+        height: calc(var(--index) * 2);
     }
 
     .main__container-network img:hover{

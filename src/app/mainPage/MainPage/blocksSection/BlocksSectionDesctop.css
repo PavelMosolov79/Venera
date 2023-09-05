@@ -83,6 +83,11 @@
     }
 
     .blocks__section-one__hairdresser a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 40);
+        height: calc(var(--index) * 13);
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
@@ -123,6 +128,11 @@
     }
 
     .blocks__section-one__layout-one__manicure a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
@@ -160,6 +170,11 @@
     }
 
     .blocks__section-one__layout-one__depilation a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 13);
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
@@ -197,6 +212,11 @@
     }
 
     .blocks__section-one__layout-two a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 27);
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
@@ -218,7 +238,7 @@
 
     .blocks__section-two__sail-background{
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: end;
         width: calc(var(--index) * 19);
         height: calc(var(--index) * 20);
@@ -234,9 +254,14 @@
     }
 
     .blocks__section-two__sail a{
+        display: flex;
+        justify-content: center;
+        align-items: end;
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 20);
         /* font-family: 'Montserrat-rus'; */
         font-weight: 600;
     }
@@ -271,6 +296,11 @@
     }
 
     .blocks__section-two__vacancy a{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: calc(var(--index) * 19);
+        height: calc(var(--index) * 21);
         font-size:  calc(var(--index) * 2);
         padding: calc(var(--index) * 2);
         color: white;
