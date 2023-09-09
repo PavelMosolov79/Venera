@@ -75,4 +75,26 @@
         font-family: 'Montserrat-rus';
         font-weight: 600;
     }
+
+    .blocks__section-vacancy__one p{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 0.8);
+        padding: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
+
+    .blocks__section-vacancy__one a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 1);
+        padding: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
 }

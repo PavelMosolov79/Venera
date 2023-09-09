@@ -41,16 +41,16 @@
 
     .blocks{
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         padding: calc(var(--index) * 1.5);
         background-color: white;
     }
 
     .blocks__section{
-        display: flex;
+        display: grid;
         align-items: start;
         justify-content: center;
-        height: 40vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -61,11 +61,40 @@
         background-image: url("/sail-two.jpg");
     }
 
-    .blocks__section-sail__one h2{
+    .blocks__section-sail__two{
+        width: calc(var(--index) * 60);
+        height: calc(var(--index) * 13);
+        border-radius: calc(var(--index) * 1);
+        background-image: url("/sail-three.png");
+    }
+
+    .blocks__section h2{
         display: flex;
         justify-content: left;
         align-items: center;
         font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
+
+    .blocks__section p{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 0.8);
+        padding-left: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
+
+    .blocks__section a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 1);
         padding: calc(var(--index) * 1);
         color: white;
         font-family: 'Montserrat-rus';

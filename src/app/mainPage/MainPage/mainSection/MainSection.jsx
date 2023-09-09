@@ -23,7 +23,7 @@ const MainSection = ({ func }) => {
                   <a href="/services/hairdresser">Услуги</a>
                 </li>
                 <li>
-                  <a href="/news">Новости и акции</a>
+                  <a href="/news">Акции</a>
                 </li>
                 <li>
                   <a href="/vacancy">Вакансии</a>
@@ -35,20 +35,20 @@ const MainSection = ({ func }) => {
             </nav>
             <div class="main__container-header__layout-dropdown">
               <button class="main__container-header__layout-dropbtn">
-                <img src="./menu.svg" />
+                <img src="./menu.svg" alt="button menu"/>
               </button>
               <div class="main__container-header__layout-dropdown-content">
                 <a href="/services/hairdresser">Услуги парикмахера</a>
                 <a href="/services/manicure">Маникюр и педикюр</a>
                 <a href="/services/depilation">Депиляция</a>
                 <a href="/services/eyebrows">Брови и ресницы</a>
-                <a href="/news">Новости и акции</a>
+                <a href="/news">Акции</a>
                 <a href="/vacancy">Вакансии</a>
                 <a href="/contacts">Контакты</a>
               </div>
             </div>
             <div className="main__container-header__layout-phone">
-              <img src="./phone.svg"/>
+              <img src="./phone.svg" alt="number phone"/>
               <a>+ 7 (383) 263-70-12</a>
             </div>
           </div>
@@ -64,7 +64,7 @@ const MainSection = ({ func }) => {
             </div>
             {/* <a href="https://vk.com"><img src="./vk.svg"/></a> */}
             <div className="main__container-network__logo">
-              <a href="https://vk.com"><img src="./instagram.svg"/></a>
+              <a href="https://vk.com/salon__venera__salon"><img src="./vk.svg" alt="vk"/></a>
             </div>
           </div>
         </div>

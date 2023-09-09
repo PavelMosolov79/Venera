@@ -41,18 +41,19 @@
 
     .blocks{
         width: 100%;
-        height: calc(var(--index) * 30);
+        height: calc(var(--index) * 60);
         padding: calc(var(--index) * 1.5);
         background-color: white;
     }
 
     .blocks__section{
         display: flex;
+        flex-wrap: wrap;
         align-items: start;
         justify-content: center;
         grid-auto-rows: minmax(calc(var(--index) * 60), calc(var(--index) * 30));
         align-items: start;
-        height: calc(var(--index) * 20);
+        height: calc(var(--index) * 50);
         width: 100%;
     }
 
@@ -63,11 +64,42 @@
         background-image: url("/sail-two.jpg");
     }
 
-    .blocks__section-sail__one h2{
+    .blocks__section-sail__two{
+        width: 100%;
+        height: calc(var(--index) * 23);
+        border-radius: calc(var(--index) * 1);
+        background-image: url("/sail-three.png");
+        background-size: calc(var(--index) * 46) calc(var(--index) * 23) ;
+        background-position: left center;
+    }
+
+    .blocks__section h2{
         display: flex;
         justify-content: left;
         align-items: center;
         font-size:  calc(var(--index) * 2);
+        padding: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
+
+    .blocks__section p{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 0.8);
+        padding: calc(var(--index) * 1);
+        color: white;
+        font-family: 'Montserrat-rus';
+        font-weight: 600;
+    }
+
+    .blocks__section a{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size:  calc(var(--index) * 1);
         padding: calc(var(--index) * 1);
         color: white;
         font-family: 'Montserrat-rus';
