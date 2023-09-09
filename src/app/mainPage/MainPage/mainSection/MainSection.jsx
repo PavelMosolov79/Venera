@@ -55,7 +55,7 @@ const MainSection = ({ func }) => {
         </header>
         <div className="main__container-network">
           <div className="main__container-network__h1">
-            <h1>BEATY</h1>
+            <h1>BEAUTY</h1>
             <p>SALON</p>
           </div>
           <div className="main__container-network__vk">
