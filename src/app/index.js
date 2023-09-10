@@ -66,13 +66,13 @@ function convertParam(boolValue, defaultValue) {
     return (
       <>
         <YandexMetrikaTag
-          yid={0}
+          yid={94890780}
           clickmap={clickmap}
           trackLinks={trackLinks}
           accuracyTrackBounce={accurateTrackBounce}
           webvisor={webvisor}
         />
-        <YandexMetrikaPixel yid={0} />
+        <YandexMetrikaPixel yid={94890780} />
       </>
     );
   }
