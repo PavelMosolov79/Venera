@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="Ключевые слова" />
         
         <meta name = "robots" content = "index, follow" />
-        <meta name="yandex-verification" content="fa2d4e0a3ba9a121" />
+        <meta name="yandex-verification" content="bf6af11ba967ce68" />
         
         <meta property="og:image" content="/networks.jpg" />
         <meta property="og:title" content="Venera - Место, где красота становится реальностью"/>
